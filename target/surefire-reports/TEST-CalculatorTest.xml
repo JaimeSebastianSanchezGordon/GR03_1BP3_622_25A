@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.071" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.078" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\DETPC\AppData\Local\Temp\surefire7409640197061091513\surefirebooter-20250509235009857_3.jar C:\Users\DETPC\AppData\Local\Temp\surefire7409640197061091513 2025-05-09T23-50-09_645-jvmRun1 surefire-20250509235009857_1tmp surefire_0-20250509235009857_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\DETPC\AppData\Local\Temp\surefire10356949059207089569\surefirebooter-20250510000437185_3.jar C:\Users\DETPC\AppData\Local\Temp\surefire10356949059207089569 2025-05-10T00-04-37_012-jvmRun1 surefire-20250510000437185_1tmp surefire_0-20250510000437185_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\DETPC\OneDrive - Escuela Politécnica Nacional\U\SEXTO SEMESTRE\MA\PROYECTOS\GR03_1BP3_622_25A\target\test-classes;C:\Users\DETPC\OneDrive - Escuela Politécnica Nacional\U\SEXTO SEMESTRE\MA\PROYECTOS\GR03_1BP3_622_25A\target\classes;C:\Users\DETPC\.m2\repository\org\mockito\mockito-core\5.17.0\mockito-core-5.17.0.jar;C:\Users\DETPC\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\DETPC\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar;C:\Users\DETPC\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\DETPC\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\DETPC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\DETPC\AppData\Local\Temp\surefire7409640197061091513\surefirebooter-20250509235009857_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DETPC\AppData\Local\Temp\surefire10356949059207089569\surefirebooter-20250510000437185_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -72,13 +72,13 @@ TEST 2
 TEAR DOWN()
 ]]></system-out>
   </testcase>
-  <testcase name="given_two_Integers_when_multiplication_then_timeout" classname="CalculatorTest" time="0.063">
+  <testcase name="given_two_Integers_when_multiplication_then_timeout" classname="CalculatorTest" time="0.068">
     <system-out><![CDATA[SETUP()
 TEST 4
 TEAR DOWN()
 ]]></system-out>
   </testcase>
-  <testcase name="given_two_Integers_when_addition_then_ok" classname="CalculatorTest" time="0.001">
+  <testcase name="given_two_Integers_when_addition_then_ok" classname="CalculatorTest" time="0.003">
     <system-out><![CDATA[SETUP()
 TEST 1
 TEAR DOWN()
