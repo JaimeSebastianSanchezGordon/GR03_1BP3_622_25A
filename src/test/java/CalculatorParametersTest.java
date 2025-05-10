@@ -25,7 +25,7 @@ public class CalculatorParametersTest {
         return data;
     }
 
-    public CalculadoraParametersTest(int a, int b, int expected) {
+    public CalculatorParametersTest(int a, int b, int expected) {
         this.a = a;
         this.b = b;
         this.expected = expected;
